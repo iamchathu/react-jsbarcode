@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/iamchathu/react-jsbarcode/compare/v0.1.2...v0.2.0) (2021-10-07)
+
+### ⚠ BREAKING CHANGES
+
+- move jsbarcode as dependacy rather than peer
+
+### Features
+
+- move jsbarcode as dependacy rather than peer ([4730d31](https://github.com/iamchathu/react-jsbarcode/commit/4730d3167ae6c2fff2451b7083862069bbd674a6))
+
 ### [0.1.2](https://github.com/iamchathu/react-jsbarcode/compare/v0.1.1...v0.1.2) (2021-10-07)
 
 ### Bug Fixes
