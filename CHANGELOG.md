@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://github.com/iamchathu/react-jsbarcode/compare/v0.2.0...v0.2.1) (2021-10-07)
+
+### Bug Fixes
+
+- make options optional prop ([0bc6f4b](https://github.com/iamchathu/react-jsbarcode/commit/0bc6f4b3cb41efbc97f71495f2f9f8f40775353e))
+
 ## [0.2.0](https://github.com/iamchathu/react-jsbarcode/compare/v0.1.2...v0.2.0) (2021-10-07)
 
 ### ⚠ BREAKING CHANGES
