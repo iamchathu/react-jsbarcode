@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/iamchathu/react-jsbarcode/compare/v0.1.0...v0.1.1) (2021-10-07)
+
+### Bug Fixes
+
+- readme react jsx formatting ([94a24bf](https://github.com/iamchathu/react-jsbarcode/commit/94a24bf833cd79e254806c7e46bae51ad94e8c0a))
+
 ## 0.1.0 (2021-10-07)
 
 ### ⚠ BREAKING CHANGES
