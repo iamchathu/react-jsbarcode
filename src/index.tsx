@@ -10,7 +10,7 @@ export const enum Renderer {
 export interface ReactBarcodeProps {
   renderer?: Renderer;
   value: string;
-  options: Options;
+  options?: Options;
 }
 
 export { Options };
