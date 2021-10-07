@@ -31,6 +31,12 @@ yarn add react-jsbarcode jsbarcode
 import ReactJSBarcode from 'react-jsbarcode';
 
 const App = () => {
-  return <ReactJSBarcode data="ABC123" />;
+  return <ReactJSBarcode value="ABC123" options={{ format: 'code128' }} renderer="svg" />;
 };
 ```
+
+For all options refer jsbarcode [wiki](https://github.com/lindell/JsBarcode/wiki/Options).
+
+### Renderers
+
+JSBarcode supports rendering to SVG, image and canvas. Default renderer is 'svg'.
