@@ -11,7 +11,8 @@
     "build": "tsc -b .",
     "prepare": "install-peers && husky install",
     "lint": "eslint 'src/**/*.{ts,tsx}' --quiet --fix ",
-    "prepublishOnly": "yarn clean && yarn build"
+    "prepublishOnly": "yarn clean && yarn build",
+    "release": "standard-version"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.0",
@@ -32,6 +33,7 @@
     "lint-staged": "^11.2.0",
     "prettier": "^2.4.1",
     "rimraf": "^3.0.2",
+    "standard-version": "^9.3.1",
     "typescript": "^4.4.3"
   },
   "peerDependencies": {
