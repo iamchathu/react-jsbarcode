@@ -9,20 +9,20 @@
 
 ## About
 
-This is a [React](https://reactjs.org) component wrapping up [jsbarcode](<[https://](https://github.com/lindell/JsBarcode)>):
+This is a [React](https://reactjs.org) component wrapping up [jsbarcode](<[https://](https://github.com/lindell/JsBarcode)>). Written as a React functional component using React hooks.
 
 ## Installation
 
 using NPM
 
 ```bash
-npm i react-jsbarcode jsbarcode
+npm i react-jsbarcode
 ```
 
 using yarn
 
 ```bash
-yarn add react-jsbarcode jsbarcode
+yarn add react-jsbarcode
 ```
 
 ## Usage

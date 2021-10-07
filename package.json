@@ -22,6 +22,9 @@
     "prepublishOnly": "yarn clean && yarn build",
     "release": "standard-version"
   },
+  "dependencies": {
+    "jsbarcode": "^3.11.5"
+  },
   "devDependencies": {
     "@commitlint/cli": "^13.2.0",
     "@commitlint/config-conventional": "^13.2.0",
@@ -45,7 +48,6 @@
     "typescript": "^4.4.3"
   },
   "peerDependencies": {
-    "jsbarcode": "^3.11.5",
     "react": "^17.0.2"
   },
   "keywords": [
