@@ -1,0 +1,36 @@
+{
+  "name": "react-jsbarcode",
+  "version": "0.0.1",
+  "description": "JSBarcode component for React",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "Chathu Vishwajith <iam@chathu.me>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf lib/",
+    "build": "tsc -b .",
+    "prepare": "install-peers",
+    "lint": "eslint 'src/**/*.{ts,tsx}' --quiet --fix "
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.27",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "install-peers-cli": "^2.2.0",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.3"
+  },
+  "peerDependencies": {
+    "jsbarcode": "^3.11.5",
+    "react": "^17.0.2"
+  }
+}
