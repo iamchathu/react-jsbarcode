@@ -27,7 +27,7 @@ yarn add react-jsbarcode jsbarcode
 
 ## Usage
 
-```ts
+```tsx
 import ReactJSBarcode from 'react-jsbarcode';
 
 const App = () => {
