@@ -1,29 +1,31 @@
 import * as React from 'react';
 import JsBarcode, { Options } from 'jsbarcode';
 
-const enum Renderer {
+export const enum Renderer {
   svg = 'svg',
-  img = 'img',
+  image = 'image',
   canvas = 'canvas',
 }
 
 export interface ReactBarcodeProps {
   renderer?: Renderer;
-  data: string;
+  value: string;
   options: Options;
 }
 
-const ReactBarcode = ({ data, options, renderer = Renderer.svg }: ReactBarcodeProps) => {
+export { Options };
+
+const ReactBarcode = ({ value, options, renderer = Renderer.svg }: ReactBarcodeProps) => {
   const containerRef = React.useRef<any>(null);
 
   React.useEffect(() => {
-    JsBarcode(containerRef.current, data, options);
-  }, [data, options]);
+    JsBarcode(containerRef.current, value, options);
+  }, [value, options, renderer]);
 
   switch (renderer) {
     case 'canvas':
       return <canvas ref={containerRef} />;
-    case 'img':
+    case 'image':
       return <img ref={containerRef} alt="barcode" />;
     default:
       return <svg ref={containerRef} />;
