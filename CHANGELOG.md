@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.2](https://github.com/iamchathu/react-jsbarcode/compare/v0.2.1...v0.2.2) (2021-10-08)
+
+### Features
+
+- add className and style support ([cd4d63a](https://github.com/iamchathu/react-jsbarcode/commit/cd4d63ac6a42ba2401f95898c548c318aed7dca3))
+
 ### [0.2.1](https://github.com/iamchathu/react-jsbarcode/compare/v0.2.0...v0.2.1) (2021-10-07)
 
 ### Bug Fixes
