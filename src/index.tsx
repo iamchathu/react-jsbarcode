@@ -11,11 +11,13 @@ export interface ReactBarcodeProps {
   renderer?: Renderer;
   value: string;
   options?: Options;
+  style?: React.CSSProperties;
+  className?: string;
 }
 
 export { Options };
 
-const ReactBarcode = ({ value, options, renderer = Renderer.svg }: ReactBarcodeProps) => {
+const ReactBarcode = ({ style, className, value, options, renderer = Renderer.svg }: ReactBarcodeProps) => {
   const containerRef = React.useRef<any>(null);
 
   React.useEffect(() => {
@@ -24,11 +26,11 @@ const ReactBarcode = ({ value, options, renderer = Renderer.svg }: ReactBarcodeP
 
   switch (renderer) {
     case 'canvas':
-      return <canvas ref={containerRef} />;
+      return <canvas ref={containerRef} style={style} className={className} />;
     case 'image':
-      return <img ref={containerRef} alt="barcode" />;
+      return <img ref={containerRef} alt="barcode" style={style} className={className} />;
     default:
-      return <svg ref={containerRef} />;
+      return <svg ref={containerRef} style={style} className={className} />;
   }
 };
 
