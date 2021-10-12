@@ -1,6 +1,6 @@
 {
   "name": "react-jsbarcode",
-  "version": "0.2.3-beta.0",
+  "version": "0.2.3",
   "description": "JSBarcode component for React",
   "homepage": "http://github.com/iamchathu/react-jsbarcode",
   "repository": {
