@@ -9,7 +9,7 @@
 
 ## About
 
-This is a [React](https://reactjs.org) component wrapping up [jsbarcode](<[https://](https://github.com/lindell/JsBarcode)>). Written as a React functional component using React hooks.
+This is a [React](https://reactjs.org) component wrapping up [jsbarcode](<[https://](https://github.com/lindell/JsBarcode)>). Written as a React functional component using React hooks. <ReactBarcode />
 
 ## Installation
 
@@ -27,11 +27,23 @@ yarn add react-jsbarcode
 
 ## Usage
 
+- Basic usage
+
 ```tsx
-import ReactJSBarcode from 'react-jsbarcode';
+import ReactBarcode from 'react-jsbarcode';
 
 const App = () => {
-  return <ReactJSBarcode value="ABC123" options={{ format: 'code128' }} renderer="svg" />;
+  return <ReactBarcode value="ABC123" />;
+};
+```
+
+- Advanced usage
+
+```tsx
+import ReactBarcode from 'react-jsbarcode';
+
+const App = () => {
+  return <ReactBarcode value="ABC123" options={{ format: 'code128' }} renderer="svg" />;
 };
 ```
 
