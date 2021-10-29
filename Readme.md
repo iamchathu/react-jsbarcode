@@ -52,3 +52,5 @@ For all options refer jsbarcode [wiki](https://github.com/lindell/JsBarcode/wiki
 ### Renderers
 
 JSBarcode supports rendering to SVG, image and canvas. Default renderer is 'svg'.
+
+[![Edit react-jsbarcode](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-jsbarcode-2659g?fontsize=14&hidenavigation=1&theme=dark)
