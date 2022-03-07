@@ -1,5 +1,5 @@
-import * as React from 'react';
 import JsBarcode, { Options } from 'jsbarcode';
+import { useEffect, useRef } from 'react';
 
 export const enum Renderer {
   svg = 'svg',
@@ -18,9 +18,9 @@ export interface ReactBarcodeProps {
 export { Options };
 
 const ReactBarcode = ({ style, className, value, options, renderer = Renderer.svg }: ReactBarcodeProps) => {
-  const containerRef = React.useRef<any>(null);
+  const containerRef = useRef<any>(null);
 
-  React.useEffect(() => {
+  useEffect(() => {
     JsBarcode(containerRef.current, value, options);
   }, [value, options, renderer]);
 
