@@ -11,6 +11,10 @@
 
 This is a [React](https://reactjs.org) component wrapping up [jsbarcode](<[https://](https://github.com/lindell/JsBarcode)>). Written as a React functional component using React hooks. <ReactBarcode />
 
+## CodeSandbox Demo
+
+[![Edit react-jsbarcode](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-jsbarcode-2659g?fontsize=14&hidenavigation=1&theme=dark)
+
 ## Installation
 
 using NPM
@@ -30,20 +34,20 @@ yarn add react-jsbarcode
 - Basic usage
 
 ```tsx
-import ReactBarcode from 'react-jsbarcode';
+import Barcode from 'react-jsbarcode';
 
 const App = () => {
-  return <ReactBarcode value="ABC123" />;
+  return <Barcode value="ABC123" />;
 };
 ```
 
 - Advanced usage
 
 ```tsx
-import ReactBarcode from 'react-jsbarcode';
+import Barcode from 'react-jsbarcode';
 
 const App = () => {
-  return <ReactBarcode value="ABC123" options={{ format: 'code128' }} renderer="svg" />;
+  return <Barcode value="ABC123" options={{ format: 'code128' }} renderer="svg" />;
 };
 ```
 
