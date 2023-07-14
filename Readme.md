@@ -29,6 +29,12 @@ using yarn
 yarn add react-jsbarcode
 ```
 
+using PNPM
+
+```bash
+pnpm add react-jsbarcode
+```
+
 ## Usage
 
 - Basic usage
