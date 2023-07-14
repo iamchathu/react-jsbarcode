@@ -19,7 +19,7 @@
     "clean": "rimraf lib/",
     "tsc": "tsc -b .",
     "build": "rollup -c",
-    "prepare": "install-peers && husky install",
+    "prepare": "husky install",
     "lint": "eslint 'src/**/*.{ts,tsx}' --quiet --fix ",
     "prepublishOnly": "pnpm clean && pnpm build",
     "semantic-release": "semantic-release"
@@ -45,7 +45,6 @@
     "eslint-plugin-react": "^7.29.3",
     "eslint-plugin-react-hooks": "^4.3.0",
     "husky": "^7.0.4",
-    "install-peers-cli": "^2.2.0",
     "lint-staged": "^12.3.5",
     "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
