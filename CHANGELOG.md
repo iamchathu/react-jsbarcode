@@ -1,3 +1,13 @@
+## [0.4.2](https://github.com/iamchathu/react-jsbarcode/compare/v0.4.1...v0.4.2) (2023-07-15)
+
+
+### Bug Fixes
+
+* :bug: add git plugin to check changelog ([3cb8a81](https://github.com/iamchathu/react-jsbarcode/commit/3cb8a81a5fef472b4741c8338f09da8fecbf4a3f))
+* :bug: fix missing dependancy ([6a7f506](https://github.com/iamchathu/react-jsbarcode/commit/6a7f50691f6d94fdb9d2ba99109175b127f20301))
+* :bug: fix skip husky issue and change the step order ([42a9bb0](https://github.com/iamchathu/react-jsbarcode/commit/42a9bb00043fc09d833b5b690499805337d51f9b))
+* :bug: ignore husky in ci ([7be9da8](https://github.com/iamchathu/react-jsbarcode/commit/7be9da82c95502cd973e70cebae42f7cff0358ad))
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.

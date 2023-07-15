@@ -19,7 +19,6 @@
     "clean": "rimraf lib/",
     "tsc": "tsc -b .",
     "build": "rollup -c",
-    "prepare": "husky install",
     "lint": "eslint 'src/**/*.{ts,tsx}' --quiet --fix ",
     "prepublishOnly": "pnpm clean && pnpm build",
     "semantic-release": "semantic-release"
