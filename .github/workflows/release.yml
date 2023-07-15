@@ -22,13 +22,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Skip Husky
-        run: npm set-script prepare ""
-
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
+
+      - name: Skip Husky
+        run: npm pkg delete scripts.prepare
 
       - name: Install PNPM
         uses: pnpm/action-setup@v2
