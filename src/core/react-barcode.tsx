@@ -33,7 +33,7 @@ export function ReactBarcode({
 
   useEffect(() => {
     renderBarcode(containerRef.current, value, options);
-  }, [value, options, renderer]);
+  }, [renderBarcode, value, options, renderer]);
 
   switch (renderer) {
     case 'canvas':
