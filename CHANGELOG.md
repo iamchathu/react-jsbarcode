@@ -1,3 +1,20 @@
+# [1.0.0](https://github.com/iamchathu/react-jsbarcode/compare/v0.4.2...v1.0.0) (2024-05-20)
+
+
+### Bug Fixes
+
+* :bug: add missing dependency to the useEffect hook ([cb97a3d](https://github.com/iamchathu/react-jsbarcode/commit/cb97a3d13926ebe4305020deb06e2f346467540d))
+
+
+### Code Refactoring
+
+* :recycle: change file organization and change the default export to named export ([eeb18aa](https://github.com/iamchathu/react-jsbarcode/commit/eeb18aa61b7c378c3be456fc30791dbc5a8feb99))
+
+
+### BREAKING CHANGES
+
+* Changed default export to named export
+
 ## [0.4.2](https://github.com/iamchathu/react-jsbarcode/compare/v0.4.1...v0.4.2) (2023-07-15)
 
 
