@@ -1,4 +1,4 @@
-export const enum Renderer {
+export enum Renderer {
   SVG = 'svg',
   IMAGE = 'image',
   CANVAS = 'canvas',
