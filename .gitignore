@@ -119,3 +119,6 @@ dist
 
 
 lib/
+*storybook.log
+
+storybook-static
