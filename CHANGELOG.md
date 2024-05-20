@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/iamchathu/react-jsbarcode/compare/v1.0.0...v1.0.1) (2024-05-20)
+
+
+### Bug Fixes
+
+* :bug: const enum issue ([737445a](https://github.com/iamchathu/react-jsbarcode/commit/737445ac0f4cf1ff8a6e5480d7c86b886b0898d7))
+
 # [1.0.0](https://github.com/iamchathu/react-jsbarcode/compare/v0.4.2...v1.0.0) (2024-05-20)
 
 
