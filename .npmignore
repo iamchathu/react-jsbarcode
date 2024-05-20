@@ -1,1 +1,15 @@
 src/
+.vscode
+.husky
+.storybook
+.eslintignore
+.eslintrc.json
+.gitignore
+.git
+.commitlintrc.json
+.lintstagedrc.json
+.prettierrc
+.releaserc
+.tsconfig.base.json
+.tsconfig.json
+tsup.config.ts

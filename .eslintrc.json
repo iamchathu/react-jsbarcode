@@ -1,6 +1,19 @@
 {
-  "extends": ["airbnb", "airbnb-typescript", "plugin:react/jsx-runtime", "prettier"],
-  "parserOptions": {
-    "project": "./tsconfig.json"
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/jsx-runtime",
+    "prettier",
+    "plugin:storybook/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "react", "react-hooks", "jsx-a11y"],
+  "root": true,
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
