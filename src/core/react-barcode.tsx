@@ -1,6 +1,6 @@
 import JsBarcode, { type Options } from 'jsbarcode';
 import { useCallback, useEffect, useRef, type CSSProperties } from 'react';
-import { Renderer } from '../types';
+import { Renderer } from '../types/index.js';
 
 export interface ReactBarcodeProps {
   /**
