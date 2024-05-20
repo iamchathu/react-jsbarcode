@@ -11,9 +11,10 @@
 
 This is a [React](https://reactjs.org) component wrapping up [jsbarcode](<[https://](https://github.com/lindell/JsBarcode)>). Written as a React functional component using React hooks. <ReactBarcode />
 
-## CodeSandbox Demo
+## Demo
 
 [![Edit react-jsbarcode](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-jsbarcode-2659g?fontsize=14&hidenavigation=1&theme=dark)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/react-jsbarcode?file=src%2FApp.tsx)
 
 ## Installation
 
@@ -40,20 +41,20 @@ pnpm add react-jsbarcode
 - Basic usage
 
 ```tsx
-import Barcode from 'react-jsbarcode';
+import { ReactBarcode } from 'react-jsbarcode';
 
 const App = () => {
-  return <Barcode value="ABC123" />;
+  return <ReactBarcode value="ABC123" />;
 };
 ```
 
 - Advanced usage
 
 ```tsx
-import Barcode from 'react-jsbarcode';
+import { ReactBarcode } from 'react-jsbarcode';
 
 const App = () => {
-  return <Barcode value="ABC123" options={{ format: 'code128' }} renderer="svg" />;
+  return <ReactBarcode value="ABC123" options={{ format: 'code128' }} renderer="svg" />;
 };
 ```
 
@@ -64,3 +65,4 @@ For all options refer jsbarcode [wiki](https://github.com/lindell/JsBarcode/wiki
 JSBarcode supports rendering to SVG, image and canvas. Default renderer is 'svg'.
 
 [![Edit react-jsbarcode](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-jsbarcode-2659g?fontsize=14&hidenavigation=1&theme=dark)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/react-jsbarcode?file=src%2FApp.tsx)
