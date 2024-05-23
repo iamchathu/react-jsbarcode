@@ -34,7 +34,8 @@
     "prepublishOnly": "pnpm clean && pnpm build",
     "semantic-release": "semantic-release",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "prepare": "husky"
   },
   "dependencies": {
     "jsbarcode": "^3.11.5"
@@ -60,7 +61,7 @@
     "eslint-plugin-react": "^7.29.3",
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-storybook": "^0.8.0",
-    "husky": "^7.0.4",
+    "husky": "^9.0.11",
     "lint-staged": "^12.3.5",
     "prettier": "^2.5.1",
     "react": "^18.3.1",
