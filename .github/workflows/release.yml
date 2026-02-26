@@ -10,7 +10,9 @@ permissions:
 jobs:
   release:
     name: Release
+    if: github.repository == 'iamchathu/react-jsbarcode'
     runs-on: ubuntu-latest
+    environment: publishing
     permissions:
       contents: write # to be able to publish a GitHub release
       issues: write # to be able to comment on released issues
@@ -30,7 +32,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
           cache: 'pnpm'
 
       - name: Skip Husky
@@ -42,5 +44,4 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: pnpm semantic-release
