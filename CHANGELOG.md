@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/iamchathu/react-jsbarcode/compare/v1.1.0...v1.1.1) (2026-02-26)
+
+
+### Bug Fixes
+
+* update Storybook and other dev dependencies ([9355fa1](https://github.com/iamchathu/react-jsbarcode/commit/9355fa16fbbeac5a457ce7628a764b931c18e9e3))
+
 # [1.1.0](https://github.com/iamchathu/react-jsbarcode/compare/v1.0.1...v1.1.0) (2026-02-26)
 
 
