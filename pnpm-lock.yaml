@@ -21,9 +21,21 @@ importers:
       '@semantic-release/changelog':
         specifier: ^6.0.3
         version: 6.0.3(semantic-release@25.0.3(typescript@5.9.3))
+      '@semantic-release/commit-analyzer':
+        specifier: ^13.0.1
+        version: 13.0.1(semantic-release@25.0.3(typescript@5.9.3))
       '@semantic-release/git':
         specifier: ^10.0.1
         version: 10.0.1(semantic-release@25.0.3(typescript@5.9.3))
+      '@semantic-release/github':
+        specifier: ^12.0.6
+        version: 12.0.6(semantic-release@25.0.3(typescript@5.9.3))
+      '@semantic-release/npm':
+        specifier: ^13.1.4
+        version: 13.1.4(semantic-release@25.0.3(typescript@5.9.3))
+      '@semantic-release/release-notes-generator':
+        specifier: ^14.1.0
+        version: 14.1.0(semantic-release@25.0.3(typescript@5.9.3))
       '@storybook/addon-essentials':
         specifier: ^8.1.1
         version: 8.1.1(@types/react@18.3.3)(prettier@2.8.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -6760,7 +6772,7 @@ snapshots:
       '@babel/core': 7.24.5
       '@babel/helper-compilation-targets': 7.23.6
       '@babel/helper-plugin-utils': 7.24.5
-      debug: 4.3.5
+      debug: 4.4.3
       lodash.debounce: 4.0.8
       resolve: 1.22.8
     transitivePeerDependencies:
@@ -10622,7 +10634,7 @@ snapshots:
   detect-port@1.6.1:
     dependencies:
       address: 1.2.2
-      debug: 4.3.5
+      debug: 4.4.3
     transitivePeerDependencies:
       - supports-color
 
