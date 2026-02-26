@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/iamchathu/react-jsbarcode/compare/v1.0.1...v1.1.0) (2026-02-26)
+
+
+### Bug Fixes
+
+* :bug: fix lock file and cleanup package.json ([af18736](https://github.com/iamchathu/react-jsbarcode/commit/af187367bab453b5413fb5960fdc50157b55b798))
+
+
+### Features
+
+* :sparkles: upgrade library to support react 19 and ESM only ([225fd1a](https://github.com/iamchathu/react-jsbarcode/commit/225fd1ad45a291a916f8c185d831d936212ffa7e))
+
 ## [1.0.1](https://github.com/iamchathu/react-jsbarcode/compare/v1.0.0...v1.0.1) (2024-05-20)
 
 

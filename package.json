@@ -27,8 +27,7 @@
     "prepublishOnly": "pnpm clean && pnpm build",
     "semantic-release": "semantic-release",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "prepare": "husky"
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "jsbarcode": "^3.11.5"
