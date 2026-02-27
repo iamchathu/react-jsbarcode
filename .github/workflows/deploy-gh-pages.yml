@@ -37,7 +37,7 @@ jobs:
           cache: 'pnpm'
 
       #👇 Add Storybook build and deploy to GitHub Pages as a step in the workflow
-      - uses: bitovi/github-actions-storybook-to-github-pages@v1.0.3
+      - uses: bitovi/github-actions-storybook-to-github-pages@v1.0.4
         id: build-publish
         with:
           install_command: pnpm install
