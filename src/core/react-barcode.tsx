@@ -1,5 +1,5 @@
 import JsBarcode, { type Options } from 'jsbarcode';
-import { useCallback, useEffect, useRef, type CSSProperties } from 'react';
+import { useEffect, useRef, type CSSProperties } from 'react';
 import { Renderer } from '../types/index.js';
 
 export interface ReactBarcodeProps {
@@ -29,11 +29,11 @@ export function ReactBarcode({
 }: Readonly<ReactBarcodeProps>): React.JSX.Element {
   const containerRef = useRef<never>(null);
 
-  const renderBarcode = useCallback(JsBarcode, [value, containerRef.current, options]);
-
   useEffect(() => {
-    renderBarcode(containerRef.current, value, options);
-  }, [renderBarcode, value, options, renderer]);
+    if (containerRef.current) {
+      JsBarcode(containerRef.current, value, options);
+    }
+  }, [value, options, renderer]);
 
   switch (renderer) {
     case 'canvas':
