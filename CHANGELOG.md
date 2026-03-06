@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/iamchathu/react-jsbarcode/compare/v1.1.3...v1.1.4) (2026-03-06)
+
+
+### Bug Fixes
+
+* :bug: Fix type export issue with enum value ([2fa5492](https://github.com/iamchathu/react-jsbarcode/commit/2fa549231f1a73030418c513fab0052ce3f53794))
+
 ## [1.1.3](https://github.com/iamchathu/react-jsbarcode/compare/v1.1.2...v1.1.3) (2026-02-27)
 
 
