@@ -21,14 +21,14 @@ export const Default: Story = {
 export const Image: Story = {
   args: {
     value: 'ABC10002',
-    renderer:Renderer.IMAGE
+    renderer: Renderer.IMAGE,
   },
 };
 
 export const Canvas: Story = {
   args: {
     value: 'ABC10002',
-    renderer:Renderer.CANVAS
+    renderer: Renderer.CANVAS,
   },
 };
 
@@ -36,8 +36,7 @@ export const UsingOptions: Story = {
   args: {
     value: 'ABC10002',
     options: {
-      textAlign:'right'
-    }
+      textAlign: 'right',
+    },
   },
 };
-

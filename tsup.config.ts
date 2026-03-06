@@ -3,7 +3,7 @@ import { defineConfig } from 'tsup';
 export default defineConfig({
   entry: ['src/**/*@(ts|tsx)', '!src/**/*.stories.tsx'],
   treeshake: true,
-  splitting: true,         // Enables code splitting for better tree-shaking
+  splitting: true, // Enables code splitting for better tree-shaking
   minify: true,
   clean: true,
   dts: true,
@@ -12,9 +12,8 @@ export default defineConfig({
   outExtension() {
     return {
       js: '.js',
-
     };
   },
-  external: ['react', 'react-dom',],
+  external: ['react', 'react-dom'],
   outDir: 'lib',
 });
