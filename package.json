@@ -81,6 +81,6 @@
     "provenance": true
   },
   "volta": {
-    "node": "24.14.0"
+    "node": "24.15.0"
   }
 }
