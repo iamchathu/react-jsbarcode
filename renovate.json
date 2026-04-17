@@ -1,5 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended", ":semanticCommits"],
-  "addLabels": ["renovate"]
+  "extends": ["config:recommended", "config:best-practices", ":semanticCommits", "helpers:pinGitHubActionDigests", ":separateMajorReleases"],
+  "addLabels": ["renovate"],
+  "minimumReleaseAge": "1 day"
 }
