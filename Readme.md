@@ -11,10 +11,16 @@
 
 This is a [React](https://reactjs.org) component wrapping up [jsbarcode](<[https://](https://github.com/lindell/JsBarcode)>). Written as a React functional component using React hooks. <ReactBarcode />
 
-## Demo
+## 🌏  Open in the Cloud 
+Click any of the buttons below to start a new development environment to demo or contribute to the codebase:
 
+[![Open in VS Code](https://img.shields.io/badge/Open%20in-VS%20Code-blue?logo=visualstudiocode)](https://vscode.dev/github/iamchathu/react-jsbarcode)
+[![Open in Glitch](https://img.shields.io/badge/Open%20in-Glitch-blue?logo=glitch)](https://glitch.com/edit/#!/import/github/iamchathu/react-jsbarcode)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/iamchathu/react-jsbarcode)
 [![Edit react-jsbarcode](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-jsbarcode-2659g?fontsize=14&hidenavigation=1&theme=dark)
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/react-jsbarcode?file=src%2FApp.tsx)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/react-jsbarcode?file=src%2FApp.tsx)[![Open in Repl.it](https://replit.com/badge/github/withastro/astro)](https://replit.com/github/iamchathu/react-jsbarcode)
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/iamchathu/react-jsbarcode)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/iamchathu/react-jsbarcode)
 
 ## Installation
 
@@ -64,5 +70,3 @@ For all options refer jsbarcode [wiki](https://github.com/lindell/JsBarcode/wiki
 
 JSBarcode supports rendering to SVG, image and canvas. Default renderer is 'svg'.
 
-[![Edit react-jsbarcode](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-jsbarcode-2659g?fontsize=14&hidenavigation=1&theme=dark)
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/react-jsbarcode?file=src%2FApp.tsx)
